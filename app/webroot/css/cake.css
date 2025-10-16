@@ -33,14 +33,14 @@
 }
 
 .button, button, input[type='button'], input[type='reset'], input[type='submit'] {
-    background-color: var(--color-cakephp-red);
-    border-color: var(--color-cakephp-red);
+    background-color: var(--color-cakephp-blue);
+    border-color: var(--color-cakephp-blue);
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    background: var(--color-main-bg);
+    background: wheath var(--color-main-bg);
 }
 
 .top-nav-links,
@@ -122,7 +122,7 @@ th {
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: var(--color-cakephp-red);
+    color: var(--color-cakephp-blue);
 }
 .top-nav-title span {
     color: var(--color-cakephp-gray);

@@ -25,6 +25,7 @@
                     echo $this->Form->control('name');
                     echo $this->Form->control('description');
                     echo $this->Form->control('price');
+                    echo $this->Form->control('quantity');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>
