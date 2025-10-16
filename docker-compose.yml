@@ -1,10 +1,8 @@
-version: '3.8'
-
 services:
   # Servicio para PHP y Apache
   web:
     build: .
-    container_name: mi_servidor_web
+    container_name: DockCakePHP
     ports:
       - "8080:80"
     volumes:
@@ -13,8 +11,10 @@ services:
   # Servicio para la Base de Datos MySQL
   db:
     image: mysql:8.0
-    container_name: mi_base_de_datos
+    container_name: DockSQL
     restart: always
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: docker153@
       MYSQL_DATABASE: CrudPHP
